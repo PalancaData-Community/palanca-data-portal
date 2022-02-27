@@ -3,7 +3,7 @@
     <!-- Brand -->
     <div class="sidenav-header  align-items-center">
       <a class="navbar-brand" href="/">
-        <img src="/static/assets/img/brand/blue.png" class="navbar-brand-img" alt="Argon Design - Jinja Template Logo.">
+        <img src="/static/assets/img/brand/black_logo.png" class="navbar-brand-img" alt="Palanca Design - Jinja Template Logo.">
       </a>
     </div>
     <div class="navbar-inner">
@@ -14,10 +14,10 @@
           <li class="nav-item">
             <a class="nav-link {% if 'index' in segment %} active {% endif %}" href="/">
               <i class="ni ni-tv-2 text-primary"></i>
-              <span class="nav-link-text">Dashboard</span>
+              <span class="nav-link-text">Home</span>
             </a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link {% if 'icons' in segment %} active {% endif %}" href="/icons.html">
               <i class="ni ni-planet text-orange"></i>
               <span class="nav-link-text">Icons</span>
@@ -28,7 +28,7 @@
               <i class="ni ni-pin-3 text-primary"></i>
               <span class="nav-link-text">Google</span>
             </a>
-          </li>
+          </li>-->
           <li class="nav-item">
             <a class="nav-link {% if 'profile' in segment %} active {% endif %}" href="/profile.html">
               <i class="ni ni-single-02 text-yellow"></i>
@@ -38,10 +38,10 @@
           <li class="nav-item">
             <a class="nav-link {% if 'tables' in segment %} active {% endif %}" href="/tables.html">
               <i class="ni ni-bullet-list-67 text-default"></i>
-              <span class="nav-link-text">Tables</span>
+              <span class="nav-link-text">Datasets</span>
             </a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="/login.html">
               <i class="ni ni-key-25 text-info"></i>
               <span class="nav-link-text">Login (template)</span>
@@ -52,7 +52,7 @@
               <i class="ni ni-circle-08 text-pink"></i>
               <span class="nav-link-text">Register (template)</span>
             </a>
-          </li>
+          </li>-->
 
           <li class="nav-item">
             <a class="nav-link" href="{{ url_for('authentication_blueprint.logout') }}">
@@ -73,9 +73,9 @@
           <li class="nav-item">
             <a class="nav-link" 
                target="_blank" 
-               href="https://www.creative-tim.com/product/argon-dashboard-flask">
+               href="https://github.com/PalancaData-Community">
               <i class="ni ni-archive-2"></i>
-              <span class="nav-link-text">Product Page</span>
+              <span class="nav-link-text">GitHub</span>
             </a>
           </li>
         </ul>
